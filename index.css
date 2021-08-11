@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+img{
+    height: 60px;
+}
+.logo{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.menu{
+    margin-right: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+.menu li{
+    padding: 0 20px;
+    list-style-type: none;
+    border-radius: 20px;
+}
+.menu li:hover{
+    background-color: purple;
+}
+.jumbo{
+    background-color: blue;
+}
+.additional{
+    color: white;
+    background-color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:550px){
+    .menu{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0 10px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logo{
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
