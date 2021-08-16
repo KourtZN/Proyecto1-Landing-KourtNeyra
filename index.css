@@ -47,7 +47,6 @@ nav{
 }
 .menu li:hover{
     background-color: black;
-
 }
 main{
     background-color: black;
@@ -129,18 +128,20 @@ main{
     color: white;
     background-color: black;
     display: flex;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: space-between;
 }
 .additional img{
-    height: 400px;
-    
+    height: 400px;  
 }
 footer{
     background-color: indigo;
     color: white;
-    display: flex;
 }
+.piedepagina{
+    display: flex;
+    justify-content: space-evenly;
+}    
+
 footer img{
     height: 50px;
     vertical-align:middle;
@@ -150,22 +151,30 @@ footer ul {
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 footer ul li{
     list-style-type: none;
-    padding: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+footer ul li:hover{
+    background-color: black;
 }
 footer a{
     color: white;
     text-decoration: none;
     vertical-align: middle;
 }
+.redes h3{
+    text-align: center;
+}
 .redes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -201,6 +210,18 @@ footer a{
         display: block;
         text-align: center;
     }
-
-
+    .additional img{
+        max-height: 100%;
+        width: 100%;  
+    }
+    .imgjumbo{
+        max-width: 100%;
+    }
+    .imgjumbo img{
+        width: 100%;
+       } 
+    .piedepagina{
+        display: block;
+        text-align: center;
+    }  
 }
